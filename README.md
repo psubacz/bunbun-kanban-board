@@ -2,6 +2,10 @@
 
 I needed a simple but powerful kanban board with local storage for my work. All kanbans I have found online did not support neither Markdown nor inserting images (_crucial_), so I decided to make one!
 
+```sh
+docker run -d -p 30000:80  --name kanban docker.io/library/kanban:latest
+```
+
 ## 📖 Introduction
 
 - The kanban board is at 👉 https://kanban.laurazudel.me/
@@ -43,6 +47,7 @@ I needed a simple but powerful kanban board with local storage for my work. All 
 ![](https://github.com/lau-zudelova/bunbun-kanban-board/blob/main/readme_resources/divider.gif)
 
 - Import / Export
+
 
 
 ## 📃 Sources
